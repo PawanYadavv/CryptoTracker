@@ -11,9 +11,10 @@ const Coin = ({name,image,symbol,price,volume,priceChange,marketCap}) => {
                 <h1>{name}</h1>
                 <p className="coin-symbol">{symbol}</p>
             </div>
+
             <div className="coin-data">
                 <p className="coin-price">
-                        ${price}                    
+                       <span className='price-headings'>PRICE:</span> ${price}                    
                 </p>
                 <p className="coin-volume">
                     ${volume.toLocaleString()}
@@ -39,3 +40,5 @@ const Coin = ({name,image,symbol,price,volume,priceChange,marketCap}) => {
 }
 
 export default Coin
+
+

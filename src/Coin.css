@@ -3,6 +3,7 @@
     /* border: 2px solid black; */
     display: flex;
     justify-content: center;
+     
 }
 
 .coin-row {
@@ -66,3 +67,31 @@
 .green {
     color: #11d811;
 }
+
+.price-headings {
+    color: #6d6dec;
+}
+
+
+@media screen and (max-width: 768px) {
+            .coin-row {
+                    width: 800px;
+                    border-bottom: 1px solid #d7d7d7;
+            }
+           
+            .coin {
+                margin-left:212px;
+            }
+            .coin-price {
+             
+                margin-left: 40px;
+              }
+              .coin-data {
+                margin-right: 200px;
+              }
+  }
+
+
+
+
+  
